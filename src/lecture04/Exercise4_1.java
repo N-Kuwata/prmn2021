@@ -7,11 +7,11 @@ public class Exercise4_1 {
 
         while (true) {
             fighter1.attack(fighter2);
-            if(!fighter2.isAlive()) {
+            if (!fighter2.isAlive()) {
                 break;
             }
             fighter2.attack(fighter1);
-            if(!fighter1.isAlive()) {
+            if (!fighter1.isAlive()) {
                 break;
             }
         }
