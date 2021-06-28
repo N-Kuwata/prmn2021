@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Exercise6_1 {
     public static void main(String[] args) {
         System.out.println("小数点を入力してください。");
+        Scanner scanner = new Scanner(System.in);
         try{
-            Scanner scanner = new Scanner(System.in);
             double input = scanner.nextDouble();
             System.out.println("入力した値：" + input);
         }catch(InputMismatchException e){
